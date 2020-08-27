@@ -15,8 +15,7 @@ class _MediumArticleState extends State<Dressing> {
 
   Color _color1 = Colors.black;
   Color _color2 = Colors.red[50];
-  Color _color3 = Colors.white;
-  Color _color4 = Colors.blueAccent;
+  Color _color3 = Colors.white; 
   @override
   void initState() {
     super.initState();

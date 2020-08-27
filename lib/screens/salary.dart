@@ -6,16 +6,13 @@ class Salary extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
-        SizedBox(height: 15),
         CarouselSlider(
-          height: 180,
+          height: 550,
+          aspectRatio: 16 / 10,
           enlargeCenterPage: true,
-          autoPlay: true,
-          aspectRatio: 16/9,
-          autoPlayCurve: Curves.fastOutSlowIn,
-          autoPlayAnimationDuration: Duration(milliseconds: 800),
+          autoPlay: false,
           enableInfiniteScroll: true,
-          viewportFraction: 0.8,
+          viewportFraction: 0.9,
           items: [
             Container(
               margin: EdgeInsets.all(5.0),
@@ -30,9 +27,9 @@ class Salary extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'Salary',
+                    'Sal_RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:168:12)',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontWeight: FontWeight.bold,
                       fontSize: 18.0,
                     ),
@@ -60,31 +57,33 @@ class Salary extends StatelessWidget {
                     image: AssetImage('assets/images/cv.jpg'),
                     fit: BoxFit.cover,
                   )),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: <Widget>[
-                  Text(
-                    'Salary',
-                    style: TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
-                      fontSize: 18.0,
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(15.0),
-                    child: Text(
-                      'Negotiation',
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text(
+                      'SalarySalarySalarySalarySalary\nSalarySalarySalarySalarySalary\nSalarySalarySalarySalarySalary\nSalarySalarySalarySalarySarary\n',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontWeight: FontWeight.bold,
-                        fontSize: 14.0,
+                        fontSize: 18.0,
                       ),
-                      textAlign: TextAlign.center,
                     ),
-                  ),
-                ],
+                    Padding(
+                      padding: const EdgeInsets.all(15.0),
+                      child: Text(
+                        'Negotiation',
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 14.0,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
             Container(
@@ -100,9 +99,9 @@ class Salary extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'Salary',
+                    'SalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySalarySarary',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontWeight: FontWeight.bold,
                       fontSize: 18.0,
                     ),
@@ -135,9 +134,9 @@ class Salary extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    'Salary',
+                    'SalarySalarySalarySalarySalary\nSalarySalarySalarySalarySalary\nSalarySalarySalarySalarySalary\nSalarySalarySalarySalarySarary\n',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.black,
                       fontWeight: FontWeight.bold,
                       fontSize: 18.0,
                     ),
