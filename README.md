@@ -4,4 +4,7 @@ Interviewing is a skill; it requires thorough preparation and practice. The amou
 
 However, the key to success is not dependent on doing more. It’s doing less. That is, to use your time efficiently in the most productive way possible. This time-saving app will help thoroughly prepare you for a job interview
 
+  
+![flutter_01](https://user-images.githubusercontent.com/34428244/91372559-d68bec80-e80b-11ea-8c1f-e0f49012f532.png)
+
  
