@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:interviewers_mind/screens/webv';
+import 'package:flutter/material.dart'; 
 import 'package:url_launcher/url_launcher.dart';
 
 import 'home.dart';
@@ -160,10 +159,7 @@ class _CVState extends State<CV> {
     )));
   }
 
-  _handleURLButtonPress(BuildContext context, String links) {
-    Navigator.push(context,
-        MaterialPageRoute(builder: (context) => WebViewContainer(links)));
-  }
+ 
 }
 
 _buildTitle(String text) {
