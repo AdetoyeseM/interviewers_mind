@@ -42,12 +42,12 @@ final slideList = [
      
   
   ),
-   Slide (
-    imageUrl: 'https://firebasestorage.googleapis.com/v0/b/interview-s-mind.appspot.com/o/interviewpix%2Fjob.png?alt=media&token=a4070bf3-e891-4f36-b52f-2a021fd3326a' ,
-    title: 'Job Search',
-    description: 'Get Connected to job oppurtunities home and abroad and gain access to right information to enable you get hired'
+  // Slide (
+  //  imageUrl: 'https://firebasestorage.googleapis.com/v0/b/interview-s-mind.appspot.com/o/interviewpix%2Fjob.png?alt=media&token=a4070bf3-e891-4f36-b52f-2a021fd3326a' ,
+ //   title: 'Job Search',
+ //   description: 'Get Connected to job oppurtunities home and abroad and gain access to right information to enable you get hired'
   
-  ),
+ // ),
 
 
   

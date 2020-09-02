@@ -267,28 +267,28 @@ class _HomeState extends State<Home> {
                                 ),
                                 subtitle: Text(''),
                               )),
-                          Card(
-                              color: Colors.green[100],
-                              elevation: 1,
-                              child: ListTile(
-                                onTap: () {
+                          //Card(
+                            //  color: Colors.green[100],
+                              //elevation: 1,
+                              //child: ListTile(
+                                //onTap: () {
                                   // createInterstitialAd()..load()..show();
-                                  Navigator.pop(context);
-                                },
-                                leading: CachedNetworkImage(
-                                  placeholder: (context, url) =>
-                                      CircularProgressIndicator(),
-                                  imageUrl:
-                                      'https://firebasestorage.googleapis.com/v0/b/interview-s-mind.appspot.com/o/interviewpix%2Fvector4.png?alt=media&token=d4e36975-7ce1-4635-adf3-8143b1384423',
-                                ),
-                                title: Text(
-                                  'Job Search',
-                                  style:
-                                      TextStyle(letterSpacing: 2, fontSize: 14),
-                                  textAlign: TextAlign.left,
-                                ),
-                                subtitle: Text(''),
-                              )),
+                                  //Navigator.pop(context);
+                                //},
+                                //leading: CachedNetworkImage(
+                                  //placeholder: (context, url) =>
+                                    //  CircularProgressIndicator(),
+                                  //imageUrl:
+                                  //    'https://firebasestorage.googleapis.com/v0/b/interview-s-mind.appspot.com/o/interviewpix%2Fvector4.png?alt=media&token=d4e36975-7ce1-4635-adf3-8143b1384423',
+                                //),
+                                //title: Text(
+                                  //'Job Search',
+                                  //style:
+                                    //  TextStyle(letterSpacing: 2, fontSize: 14),
+                                  //textAlign: TextAlign.left,
+                                //),
+                               // subtitle: Text(''),
+                             // )),
                         ],
                       )),
                     )
